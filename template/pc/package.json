@@ -1,0 +1,22 @@
+{
+  "name": "react-pc",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-react-admin start",
+    "build": "webpack-react-admin build"
+  },
+  "author": "lvpangpang",
+  "license": "ISC",
+  "dependencies": {
+    "antd": "4.21.5",
+    "mobx": "6.0.4",
+    "mobx-react-lite": "3.2.0",
+    "react": "17.0.1",
+    "react-dom": "17.0.1",
+    "react-router-dom": "5.2.0"
+  },
+  "devDependencies": {
+    "webpack-react-admin": "^2.5.0"
+  }
+}

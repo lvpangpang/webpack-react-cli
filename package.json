@@ -1,0 +1,16 @@
+{
+  "name": "webpack-react-cli",
+  "version": "3.0.1",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "webpack-react-cli": "./bin/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "4.1.1",
+    "cli-spinner": "0.2.10",
+    "commander": "6.2.0"
+  }
+}
