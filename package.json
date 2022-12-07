@@ -1,12 +1,12 @@
 {
   "name": "webpack-react-cli",
-  "version": "3.0.1",
+  "version": "3.0.3",
   "description": "",
   "main": "index.js",
   "bin": {
     "webpack-react-cli": "./bin/index.js"
   },
-  "author": "",
+  "author": "lvpanpang",
   "license": "ISC",
   "dependencies": {
     "chalk": "4.1.1",

@@ -17,6 +17,6 @@
     "react-router-dom": "5.2.0"
   },
   "devDependencies": {
-    "webpack-react-admin": "^2.5.0"
+    "webpack-react-admin": "^3.0.3"
   }
 }

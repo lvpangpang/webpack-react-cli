@@ -1,16 +1,18 @@
 import { Suspense } from 'react'
 import { Switch, Route } from 'react-router-dom'
-import routesMap from '@@/.admin/routes'
+import { Fallback } from '../common'
+import 'nprogress/nprogress.css'
 import Root from '@@/.admin/root'
 import Layout from '@@/.admin/layout'
+import routesMap from '@@/.admin/routes'
 
 function Main() {
   return (
     <Layout>
-      <Suspense fallback={<div></div>}>
+      <Suspense fallback={<Fallback />}>
         <Switch>
           {Object.keys(routesMap).map((key) => {
-            return <Route exact path={key} component={routesMap[key]} />
+            return <Route key={key} exact path={key} component={routesMap[key]} />
           })}
         </Switch>
       </Suspense>

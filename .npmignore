@@ -1,6 +1,3 @@
 node_modules
 test
-tsconfig.json
 dist
-package-lock.json
-yarn.lock
